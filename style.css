@@ -1,0 +1,50 @@
+html{
+    min-height:  100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: #e9fae3;
+}
+
+svg{
+    background-color:#003249;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#title{
+    color: #003249;
+    margin-bottom: 0;
+}
+#description{
+    color: #003249;
+    margin-top: 0;    
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px
+}
+#legend{
+    padding: 20px;
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #003249;
+}
+
+#signature {
+    bottom: 10px; 
+    text-align: center;
+    color:  #9fb1bc; 
+    font-size: 14px;
+}
